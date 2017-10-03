@@ -1,0 +1,51 @@
+
+html {
+	background-color: rgb(200, 200, 200);
+}
+
+body {
+	background-color: rgb(240, 240, 255);
+	border-style: outset;
+	border-width: 20px;
+	border-color: rgb(30, 30, 30);
+	padding: 20px;
+	margin: 100px;
+}
+
+
+p {
+	font-family: calibri, arial, verdana;
+}
+
+h1 {
+	color: rgb(70, 70, 70);
+	font-family: calibri, arial, verdana;
+	font-variant: small-caps;
+}
+
+h2 {
+	font-family: calibri, arial, verdana;
+}
+
+
+h4 {
+	font-family: calibri, arial, verdana;
+}
+
+
+.contact {
+	display: inline;
+}
+
+
+.education {
+	border-top: .1px solid black;
+}
+
+.experience {
+	border-top: .1px solid black;
+}
+
+.skills {
+	border-top: .1px solid black;
+}
