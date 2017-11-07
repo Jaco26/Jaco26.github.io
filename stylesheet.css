@@ -40,3 +40,7 @@ h4 {
 .skills {
 	border-top: .1px solid black;
 }
+img {
+	max-width: 200px;
+	float: right;
+}
