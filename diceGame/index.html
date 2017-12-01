@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <title>first Brackets project</title>
+        <meta charset="utf-8">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="styles/style.css">
+    </head>
+
+    <body>
+
+		<p>Hello</p>
+<p>hi</p>
+        <div class="container">
+
+            <div class="navbar">
+                <div class="row">
+                    <div class="col d-flex align-items-end" id="heading">
+                        <h2 class="heading p-3 mr-3">...to follow up</h2>
+                        <ul class="d-flex list-unstyled">
+                            <li class="p-2 pr-4"><a class="text-muted" href="#" data-toggle="modal" data-target="#iAmMotivated">I Am Motivated</a></li>
+                            <li class="p-2"><a class="text-muted" href="#" data-toggle="modal" data-target="#aboutTheGame">About The Game</a></li>
+                        </ul>
+                    </div>
+                </div>
+			</div> <!--close .navbar-->
+
+<!--Game Area-->
+			<div class="dice">
+				<h1 class="text-center">Dice Game!!!</h1>
+				<div class="row">
+
+<!--Your Dice-->	<div class="col-4 my-dice">
+						<h4 class="text-center">Your Dice</h4>
+						<div class="di my-di-1">
+							<p></p>
+						</div>
+						<div class="di my-di-2">
+							<p></p>
+						</div>
+<!--//Your Dice-->		</div>
+
+<!--Game Controls/Results-->
+					<div class="col-4 text-center game-controls">
+						<input type="button" value="Click to Roll" class="btn btn-light">
+						<p class="mt-4" id="gameNum">Games played:</p>
+						<div class="whatHappened">
+							<p class="mt-4" id="win-lose"></p>
+						</div>
+
+						<div class="text-left mt-5">
+							<p class="m-1" id="wins">Wins:</p>
+							<p class="m-1" id="losses">Losses:</p>
+							<p class="m-1" id="ties">Ties:</p>
+						</div>
+
+			<!--			<div class="row totals">
+							<p class="col text-left mt-5" id="myDiceTotal">Total</p>
+							<p class="col text-right mt-5" id="theirDiceTotal">Total</p>
+						</div>
+			Save for another day -->
+
+
+<!--//Game Control--></div>
+
+
+<!--Their Dice-->
+					<div class="col-4 their-dice">
+						<h4 class="text-center">Their Dice</h4>
+						<div class="di their-di-1">
+							<p></p>
+						</div>
+						<div class="di their-di-2">
+							<p></p>
+						</div>
+<!--//Their Dice-->	</div>
+
+<!--//Game Area--></div>
+
+
+
+<!-- Modal 1 -->
+<div class="modal fade" id="iAmMotivated" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Why Do I Think This Is Fun?</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Because putting things together is one of the best things.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+				<!-- Modal 2 -->
+<div class="modal fade" id="aboutTheGame" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">About The Game</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>This is a simple dice game.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+        </div> <!--close .container-->
+
+
+
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="scripts/main.js"></script>
+
+    </body>
+</html>
